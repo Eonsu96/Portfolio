@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eonsu — Ansula Basumatary | Geographer · Gender Champion &amp; Co-Founder of BREN-D</title>
+<meta name="description" content="Portfolio of Eonsu (Ansula Basumatary) — Postgraduate scholar at KISS-DU, GIS &amp; Remote Sensing researcher, Gender Champion, and public speaker.">
+
+<meta property="og:title" content="Eonsu — Ansula Basumatary | Geographer &amp; GIS Researcher">
+<meta property="og:description" content="MA Geography scholar · GIS &amp; Remote Sensing · Gender Equity Advocate">
+<meta property="og:type" content="website">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%232563EB'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='26' fill='white' text-anchor='middle'%3EAB%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= LOADER ================= -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-mark">
+    <span class="loader-ring"></span>
+    <span class="loader-text">AB</span>
+  </div>
+</div>
+
+<!-- ================= AMBIENT BACKGROUND (contour texture, decorative) ================= -->
+<div class="contour-field" aria-hidden="true">
+  <svg viewBox="0 0 1200 1200" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <g class="contour-lines" fill="none" stroke="currentColor" stroke-width="1">
+      <path d="M-50,150 C150,80 350,220 600,140 C850,60 1000,180 1250,120"/>
+      <path d="M-50,260 C180,190 360,330 620,250 C870,170 1020,290 1250,230"/>
+      <path d="M-50,370 C200,300 380,440 640,360 C880,280 1040,400 1250,340"/>
+      <path d="M-50,700 C160,640 340,780 600,710 C840,640 1010,760 1250,690"/>
+      <path d="M-50,810 C190,750 370,890 630,820 C870,750 1030,870 1250,800"/>
+      <path d="M-50,920 C210,860 390,1000 650,930 C890,860 1040,980 1250,910"/>
+      <path d="M-80,1020 C170,960 420,1100 660,1010 C900,930 1060,1060 1250,1000"/>
+    </g>
+  </svg>
+</div>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <a href="#home" class="brand">
+      <span class="brand-name">Eonsu</span>
+      <span class="brand-sub">Ansula Basumatary</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#research" class="nav-link">Research</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#project" class="nav-link">Project</a>
+      <a href="#achievements" class="nav-link">Achievements</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="navbar-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" type="button">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v3M12 18.5v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2.5 12h3M18.5 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z"/></svg>
+      </button>
+      <a href="#resume" class="btn btn-outline btn-sm">Resume</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" type="button">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="container hero-grid">
+
+    <div class="hero-copy reveal">
+      <p class="eyebrow"><span class="eyebrow-dot"></span> Bhubaneswar, Odisha, India · 20.2961° N, 85.8245° E</p>
+      <h1 class="hero-title">
+        Eonsu<br><span class="hero-title-light">Ansula Basumatary</span>
+      </h1>
+      <p class="hero-role">
+        <span class="typed-prefix">I am a</span>
+        <span class="typed-text" id="typedText"></span><span class="typed-cursor">|</span>
+      </p>
+      <p class="hero-lead">
+        MA Geography scholar at Kalinga Institute of Social Sciences (KISS-DU), reading the landscape
+        through GIS and remote sensing — and the people within it through gender equity advocacy.
+      </p>
+      <div class="hero-actions">
+        <a href="#resume" class="btn btn-primary">Download Resume</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+      <div class="hero-socials" aria-label="Social links">
+        <a href="https://www.linkedin.com/in/ansula-basumatary-a1260a3a6?utm_source=share_via&utm_content=profile&utm_medium=member_ios" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3V9zm6.5 0H13v1.8h.06c.6-1.1 2.05-2.1 4.07-2.1 4.35 0 5.37 2.6 5.37 6.1V21H18v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.96V21H9.5V9z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/eonsu96?igsh=MW9rODR4emFram84Mw%3D%3D&utm_source=qr"
+          class="social-icon"
+          target="_blank"
+          rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M7.75 2C4.57 2 2 4.57 2 7.75v8.5C2 19.43 4.57 22 7.75 22h8.5C19.43 22 22 19.43 22 16.25v-8.5C22 4.57 19.43 2 16.25 2h-8.5zm0 2h8.5C18.33 4 20 5.67 20 7.75v8.5c0 2.08-1.67 3.75-3.75 3.75h-8.5C5.67 20 4 18.33 4 16.25v-8.5C4 5.67 5.67 4 7.75 4zm8.75 1a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5zM12 7a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6z"/>
+           </svg>
+        </a>
+        <a href="mailto:eonsu365@gmail.com" class="social-icon" aria-label="Email">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5 12 13l8.5-6.5"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal">
+      <div class="hero-photo-ring">
+        <img src="images/profile.jpg" alt="Portrait of Eonsu (Ansula Basumatary)" class="hero-photo">
+      </div>
+      <p class="hero-caption">Co-Founder of BREN-D' <br> Gender Champion · KISS-DU <br>Panelist, ICLSE 2026</p>
+    </div>
+
+  </div>
+  <a href="#about" class="scroll-cue" aria-label="Scroll to About">
+    <span></span>
+  </a>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="section" id="about">
+  <div class="container">
+    <p class="eyebrow reveal"><span class="eyebrow-dot"></span> 01 — About</p>
+    <h2 class="section-title reveal">Field notes on a life in geography</h2>
+
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p class="lead">
+          Eonsu — officially known as <strong>Ansula Basumatary</strong> — is a postgraduate student pursuing 
+          Post Graduate Degree in Geography under the <strong>School of Sustainable Tribal Resource Management 
+          (STRM)</strong> at the Kalinga Institute of Social Sciences (KISS), Deemed to be University, Bhubaneswar.
+
+        </p>
+        <p>
+          A 2024 graduate of U N Academy, Kokrajhar (affiliated with Bodoland University, Kokrajhar,
+          Assam), Eonsu's undergraduate dissertation traced long-term land surface temperature trends in
+          Bongaigaon using multi-temporal satellite data — work that continues to shape a research
+          interest in how satellite-derived data can inform climate-aware, equitable urban futures.
+        </p>
+        <p>
+          Alongside research, Eonsu serves as a <strong>Gender Champion</strong> at KISS-DU, helping lead
+          campus conversations on gender equity, and recently spoke as a panelist at the
+          <strong>11th International Conference on Life Skill Education (ICLSE 2026)</strong>, on a
+          session exploring how life skill education can disrupt patriarchy and build equitable futures.
+        </p>
+        <p class="philosophy">
+          "Geography is never only physical — every contour line, heat signature, and land-use change
+          eventually traces back to people, and to power."
+        </p>
+      </div>
+
+      <div class="about-snapshot reveal">
+        <div class="snapshot-card">
+          <span class="snapshot-label">Currently</span>
+          <span class="snapshot-value">Postgraduation in Geography</span>
+          <span class="snapshot-sub">KISS-DU, Bhubaneswar</span>
+        </div>
+        <div class="snapshot-card">
+          <span class="snapshot-label">Graduated</span>
+          <span class="snapshot-value">2024</span>
+          <span class="snapshot-sub">U N Academy, Kokrajhar</span>
+        </div>
+        <div class="snapshot-card">
+          <span class="snapshot-label">Specialisation</span>
+          <span class="snapshot-value">Rural Development Planning</span>
+          <span class="snapshot-sub">Indigenous knowledge systems</span>
+        </div>
+        <div class="snapshot-card">
+          <span class="snapshot-label">Active Role</span>
+          <span class="snapshot-value">Gender Champion</span>
+          <span class="snapshot-sub">KISS-DU</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EDUCATION ================= -->
+<section class="section section-alt" id="education">
+  <div class="container">
+    <p class="eyebrow reveal"><span class="eyebrow-dot"></span> 02 — Education</p>
+    <h2 class="section-title reveal">Academic timeline</h2>
+
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-marker"><span>Present</span></div>
+        <div class="timeline-card">
+          <h3>MA in Geography</h3>
+          <p class="timeline-org"><p>Kalinga Institute of Social Sciences (KISS), Deemed to be University · Bhubaneswar, Odisha</p>
+          <p>Currently pursuing a Master's degree under the School of Sustainable Tribal Resource Management (STRM), 
+             with a focus on sustainable tribal development, indigenous knowledge systems, 
+             community-based natural resource management, livelihood development, and inclusive rural transformation.</p>. 
+             Status: <em>Pursuing.</em>
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-marker"><span>2024</span></div>
+        <div class="timeline-card">
+          <h3>Bachelor's Degree, Geography</h3>
+          <p class="timeline-org">U N Academy, Kokrajhar · Affiliated with Bodoland University, Kokrajhar, Assam</p>
+          <p>Graduated in 2024. Undergraduate dissertation:
+            <strong>"Long-Term Trends in Land Surface Temperature of Bongaigaon Using Multi-Temporal
+            Satellite Data."</strong>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= RESEARCH INTERESTS ================= -->
+<section class="section" id="research">
+  <div class="container">
+    <p class="eyebrow reveal"><span class="eyebrow-dot"></span> 03 — Research</p>
+    <h2 class="section-title reveal">Research interests</h2>
+    <p class="section-intro reveal">The throughlines across Eonsu's academic and advocacy work — where
+      physical geography meets social geography.</p>
+
+    <div class="tag-cloud reveal">
+      <span class="tag-chip">Geography</span>
+      <span class="tag-chip">GIS</span>
+      <span class="tag-chip">Remote Sensing</span>
+      <span class="tag-chip">Climate Change</span>
+      <span class="tag-chip">Land Use &amp; Land Cover Change</span>
+      <span class="tag-chip">Sustainable Development</span>
+      <span class="tag-chip tag-chip-accent">Gender Studies</span>
+      <span class="tag-chip tag-chip-accent">Social Research</span>
+      <span class="tag-chip tag-chip-accent">Life Skill Education</span>
+      <span class="tag-chip tag-chip-warm">Indigenous knowledge systems</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="section section-alt" id="skills">
+  <div class="container">
+    <p class="eyebrow reveal"><span class="eyebrow-dot"></span> 04 — Skills</p>
+    <h2 class="section-title reveal">Skills &amp; tools</h2>
+
+    <div class="skills-grid">
+      <div class="skill-group reveal">
+        <h3>Geospatial &amp; Research</h3>
+        <div class="chip-row">
+          <span class="chip">GIS Analysis</span>
+          <span class="chip">Remote Sensing Interpretation</span>
+          <span class="chip">Multi-temporal Data Analysis</span>
+          <span class="chip">Statistical Analysis</span>
+          <span class="chip">Academic Research &amp; Writing</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <h3>Software &amp; Tools</h3>
+        <div class="chip-row">
+          <span class="chip">QGIS</span>
+          <span class="chip">Google Earth Engine</span>
+          <!-- <span class="chip">ArcGIS</span> -->
+          <!-- <span class="chip">SPSS</span> -->
+          <span class="chip">Microsoft Office</span>
+          <span class="chip">Adobe</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <h3>Communication &amp; Leadership</h3>
+        <div class="chip-row">
+          <span class="chip">Public Speaking</span>
+          <span class="chip">Panel Discussion &amp; Moderation</span>
+          <span class="chip">Gender Advocacy</span>
+          <span class="chip">Campus Leadership</span>
+          <span class="chip">Critical Thinking</span>
+        </div>
+      </div>
+    </div>
+    <!-- <p class="skills-note reveal">* Software list is indicative of the dissertation's geospatial workflow — edit to match your exact toolkit.</p> -->
+  </div>
+</section>
+
+<!-- ================= FEATURED PROJECT / DISSERTATION ================= -->
+<section class="section" id="project">
+  <div class="container">
+    <p class="eyebrow reveal"><span class="eyebrow-dot"></span> 05 — Project</p>
+    <h2 class="section-title reveal">Featured research</h2>
+
+    <div class="project-card reveal">
+      <div class="project-meta">
+        <span class="project-tag">Undergraduate Dissertation · 2024</span>
+        <h3 class="project-title">Long-Term Trends in Land Surface Temperature of Bongaigaon Using Multi-Temporal Satellite Data</h3>
+        <p class="project-org">U N Academy, Kokrajhar — Affiliated with Bodoland University, Assam</p>
+        <p class="project-desc">
+          This dissertation investigated decadal-scale changes in Land Surface Temperature (LST) across
+          Bongaigaon using multi-temporal satellite imagery and GIS-based retrieval techniques. By
+          comparing thermal signatures across different time periods, the study explored the relationship
+          between land-use change, urban growth, and rising surface temperatures — contributing to a
+          clearer picture of how remote sensing can support climate monitoring and urban planning
+          decisions in growing Assamese towns.
+        </p>
+        <div class="project-tags">
+          <span class="tag-chip tag-chip-sm">Land Surface Temperature</span>
+          <span class="tag-chip tag-chip-sm">GIS</span>
+          <span class="tag-chip tag-chip-sm">Remote Sensing</span>
+          <span class="tag-chip tag-chip-sm">Bongaigaon</span>
+          <span class="tag-chip tag-chip-sm">Climate Monitoring</span>
+        </div>
+        <div class="project-actions">
+          <a href="#contactForm" class="btn btn-outline btn-sm">Request Full Report</a>
+        </div>
+      </div>
+      <div class="project-visual" aria-hidden="true">
+        <div class="project-thermal-grid">
+          <span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ACHIEVEMENTS / ROLES ================= -->
+<section class="section section-alt" id="achievements">
+  <div class="container">
+    <p class="eyebrow reveal"><span class="eyebrow-dot"></span> 06 — Achievements</p>
+    <h2 class="section-title reveal">Roles, advocacy &amp; speaking</h2>
+
+    <div class="achieve-grid">
+
+      <article class="achieve-card reveal">
+        <div class="achieve-img">
+          <img src="images/gallery-genderchampion.jpg" alt="Eonsu presenting at the Gender Champions Youth Day event, KISS-DU" loading="lazy">
+        </div>
+        <div class="achieve-body">
+          <span class="achieve-tag">Ongoing Role</span>
+          <h3>Gender Champion, KISS-DU</h3>
+          <p>
+            Leads and contributes to campus initiatives on gender equity at KISS-DU. Most recently spoke
+            at <em>"Youth: The Catalyst for Change"</em> — a Youth Day observation organised by the Gender
+            Champions in collaboration with the Centre for Women's Studies and the School of Tribal Legal
+            Studies &amp; Tribal Rights.
+          </p>
+        </div>
+      </article>
+
+      <article class="achieve-card reveal">
+        <div class="achieve-img">
+          <img src="images/gallery-conference.jpg" alt="Eonsu receiving a certificate at the 11th International Conference on Life Skill Education" loading="lazy">
+        </div>
+        <div class="achieve-body">
+          <span class="achieve-tag">Conference</span>
+          <h3>Panelist, 11th ICLSE 2026, KISS-DU</h3>
+          <p>
+            Invited panelist at the <strong>11th International Conference on Life Skill Education
+            (ICLSE 2026)</strong>, contributing to a session on
+            <em>"Gender Justice Through Life Skill Education: Disrupting Patriarchy and Building
+            Equitable Futures."</em>
+          </p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= GALLERY ================= -->
+<section class="section" id="gallery">
+  <div class="container">
+    <p class="eyebrow reveal"><span class="eyebrow-dot"></span> 07 — Gallery</p>
+    <h2 class="section-title reveal">Moments &amp; milestones</h2>
+
+    <div class="masonry reveal">
+      <figure class="masonry-item" data-caption="11th International Conference on Life Skill Education (ICLSE 2026)">
+        <img src="images/gallery-conference.jpg" alt="Certificate exchange at the International Conference on Life Skill Education" loading="lazy">
+        <figcaption>ICLSE 2026 Conference</figcaption>
+      </figure>
+      <figure class="masonry-item" data-caption="Gender Champions Initiative — Youth Day, KISS-DU">
+        <img src="images/gallery-genderchampion.jpg" alt="Eonsu presenting at the Gender Champions Youth Day event" loading="lazy">
+        <figcaption>Gender Champions Initiative</figcaption>
+      </figure>
+      <figure class="masonry-item" data-caption="Campus &amp; cultural life">
+        <img src="images/gallery-campuslife-1.jpg" alt="Eonsu with a friend at a cultural festival" loading="lazy">
+        <figcaption>Cultural Life (Adhibashi Mela)</figcaption>
+      </figure>
+      <figure class="masonry-item" data-caption="Campus &amp; cultural life">
+        <img src="images/gallery-campuslife-2.jpg" alt="Eonsu at an evening cultural event" loading="lazy">
+        <figcaption>Adhibashi Mela</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+  <img src="" alt="" id="lightboxImg">
+  <p class="lightbox-caption" id="lightboxCaption"></p>
+</div>
+
+<!-- ================= RESUME ================= -->
+<section class="section section-alt" id="resume">
+  <div class="container">
+    <p class="eyebrow reveal"><span class="eyebrow-dot"></span> 08 — Resume</p>
+    <h2 class="section-title reveal">Curriculum Vitae</h2>
+
+    <div class="resume-card reveal">
+      <div class="resume-text">
+        <h3>Full CV available on request</h3>
+        <p>Download the latest CV, or reach out directly for an updated copy tailored to a specific
+          opportunity.</p>
+      </div>
+      <div class="resume-actions">
+        <a href="documents/resume.pdf" class="btn btn-primary" download>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 21h16"/></svg>
+          Download Resume
+        </a>
+        <a href="mailto:{{EMAIL}}?subject=Resume%20Request" class="btn btn-ghost">Email Me for Resume</a>
+      </div>
+      <!-- <p class="resume-note">Add <code>{{RESUME_FILE}}.pdf</code> to the <code>/documents</code> folder to activate this download.</p> -->
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section" id="contact">
+  <div class="container">
+    <p class="eyebrow reveal"><span class="eyebrow-dot"></span> 09 — Contact</p>
+    <h2 class="section-title reveal">Let's talk</h2>
+    <p class="section-intro reveal">Open to research collaborations, speaking invitations, and
+      conversations on geography, or gender equity in education.</p>
+
+    <div class="contact-grid">
+
+      <div class="contact-info reveal">
+        <a href="mailto:eonsu365@gmail.com" class="contact-row">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5 12 13l8.5-6.5"/></svg>
+          <span>eonsu365@gmail.com</span>
+        </a>
+        <a href="tel:{{PHONE}}" class="contact-row">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4h3l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v3a2 2 0 0 1-2 2C9.7 20 4 14.3 4 7a2 2 0 0 1 1-3z"/></svg>
+          <span>{{PHONE}}</span>
+        </a>
+        
+        <a href="https://www.linkedin.com/in/ansula-basumatary-a1260a3a6?utm_source=share_via&utm_content=profile&utm_medium=member_ios" class="contact-row" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3V9zm6.5 0H13v1.8h.06c.6-1.1 2.05-2.1 4.07-2.1 4.35 0 5.37 2.6 5.37 6.1V21H18v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.96V21H9.5V9z"/></svg>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://www.instagram.com/eonsu96?igsh=MW9rODR4emFram84Mw%3D%3D&utm_source=qr" class="contact-row" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M7.75 2C4.57 2 2 4.57 2 7.75v8.5C2 19.43 4.57 22 7.75 22h8.5C19.43 22 22 19.43 22 16.25v-8.5C22 4.57 19.43 2 16.25 2h-8.5zm0 2h8.5C18.33 4 20 5.67 20 7.75v8.5c0 2.08-1.67 3.75-3.75 3.75h-8.5C5.67 20 4 18.33 4 16.25v-8.5C4 5.67 5.67 4 7.75 4zm8.75 1a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5zM12 7a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6z"/>
+          </svg>
+          <span>Instagram</span>
+        </a>
+        <div class="contact-row contact-row-static">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s7-6.3 7-12a7 7 0 1 0-14 0c0 5.7 7 12 7 12z"/><circle cx="12" cy="9" r="2.4"/></svg>
+          <span>Bhubaneswar, Odisha, India</span>
+        </div>
+     </div>
+
+      <form class="contact-form reveal" id="contactForm" data-email="eonsu365@gmail.com">
+        <div class="form-row">
+          <label for="cf-name">Name</label>
+          <input type="text" id="cf-name" name="name" required>
+        </div>
+        <div class="form-row">
+          <label for="cf-email">Email</label>
+          <input type="email" id="cf-email" name="email" required>
+        </div>
+        <div class="form-row">
+          <label for="cf-subject">Subject</label>
+          <input type="text" id="cf-subject" name="subject" required>
+        </div>
+        <div class="form-row">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Send Message/Request</button>
+        <p class="form-hint" id="formHint">Opens your email app — no message is stored or sent automatically.</p>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="brand-name">Eonsu</span>
+      <p>Postgraduate Scholar · GIS &amp; Remote Sensing · Gender Equity Advocate</p>
+    </div>
+    <nav class="footer-links">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#project">Project</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="footer-socials">
+      <a href="https://www.linkedin.com/in/ansula-basumatary-a1260a3a6?utm_source=share_via&utm_content=profile&utm_medium=member_ios" aria-label="LinkedIn" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3V9zm6.5 0H13v1.8h.06c.6-1.1 2.05-2.1 4.07-2.1 4.35 0 5.37 2.6 5.37 6.1V21H18v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.96V21H9.5V9z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/eonsu96?igsh=MW9rODR4emFram84Mw%3D%3D&utm_source=qr"
+          class="social-icon"
+          target="_blank"
+          rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M7.75 2C4.57 2 2 4.57 2 7.75v8.5C2 19.43 4.57 22 7.75 22h8.5C19.43 22 22 19.43 22 16.25v-8.5C22 4.57 19.43 2 16.25 2h-8.5zm0 2h8.5C18.33 4 20 5.67 20 7.75v8.5c0 2.08-1.67 3.75-3.75 3.75h-8.5C5.67 20 4 18.33 4 16.25v-8.5C4 5.67 5.67 4 7.75 4zm8.75 1a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5zM12 7a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6z"/>
+           </svg>
+        </a>
+      <a href="mailto:eonsu365@gmail.com" aria-label="Email">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5 12 13l8.5-6.5"/></svg>
+      </a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© <span id="year"></span> Ansula Basumatary. Made with care.</p>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top" type="button">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </button>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
